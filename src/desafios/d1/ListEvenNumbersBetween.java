@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class ListEvenNumbersBetween {
     public static List<Integer> returnList(int start, int end) {
-        List<Integer> evenNumbersList = new ArrayList<Integer>();
+        List<Integer> evenNumbersList = new ArrayList<>();
         if (start > end) {
             throw new IllegalArgumentException("Start must be less than or equal to end");
         }
