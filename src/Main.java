@@ -3,6 +3,7 @@ import desafios.d2.*;
 import desafios.d3.*;
 import desafios.d4.*;
 import desafios.d5.*;
+import desafios.d6.*;
 
 
 import java.util.List;
@@ -30,6 +31,9 @@ public class Main {
         //desafio 5:
         System.out.println(VogalCounting.countVogals("arara"));
         System.out.println("-------------------------------------");
+
+        //desafio 6:
+        System.out.println(FibonacciUntilLimit.returnList(2000));
 
     }
 }
