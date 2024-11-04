@@ -4,6 +4,7 @@ import desafios.d3.*;
 import desafios.d4.*;
 import desafios.d5.*;
 import desafios.d6.*;
+import desafios.d7.*;
 
 
 import java.util.List;
@@ -34,6 +35,10 @@ public class Main {
 
         //desafio 6:
         System.out.println(FibonacciUntilLimit.returnList(2000));
+        System.out.println("-------------------------------------");
+
+        //desafio 7:
+        System.out.print(ListDuplicateRemover.removeDuplicates(List.of(3,3,5,8,7,6,3,1)));
 
     }
 }
