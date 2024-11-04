@@ -1,7 +1,9 @@
-import desafios.d1.ListEvenNumbersBetween;
-import desafios.d2.Palindrome;
-import desafios.d3.FactorialRecursive;
-import desafios.d4.MaxNumberInList;
+import desafios.d1.*;
+import desafios.d2.*;
+import desafios.d3.*;
+import desafios.d4.*;
+import desafios.d5.*;
+
 
 import java.util.List;
 public class Main {
@@ -23,6 +25,10 @@ public class Main {
         System.out.println("-------------------------------------");
         //desafio 4:
         System.out.println(MaxNumberInList.maxNumber(List.of(1,2,3,4,9,11,10)));
+        System.out.println("-------------------------------------");
+
+        //desafio 5:
+        System.out.println(VogalCounting.countVogals("arara"));
         System.out.println("-------------------------------------");
 
     }
