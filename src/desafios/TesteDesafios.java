@@ -1,4 +1,7 @@
+package desafios;
+
 import desafios.d1.*;
+import desafios.d10.SentenceOperator;
 import desafios.d2.*;
 import desafios.d3.*;
 import desafios.d4.*;
@@ -10,7 +13,7 @@ import desafios.d9.TemperatureConverter;
 
 
 import java.util.List;
-public class Main {
+public class TesteDesafios {
     public static void main(String[] args) {
         //desafio 1:
         System.out.println(ListEvenNumbersBetween.returnList(1,7));
@@ -51,5 +54,9 @@ public class Main {
         System.out.println(TemperatureConverter.convert(100, 'C'));
         System.out.println(TemperatureConverter.convert(212, 'F'));
         System.out.println("-------------------------------------");
+
+        //desafio 10:
+        System.out.println(SentenceOperator.invertStringWords("estou aprendendo a programar"));
+
     }
 }
