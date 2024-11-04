@@ -5,6 +5,7 @@ import desafios.d4.*;
 import desafios.d5.*;
 import desafios.d6.*;
 import desafios.d7.*;
+import desafios.d8.*;
 
 
 import java.util.List;
@@ -39,6 +40,9 @@ public class Main {
 
         //desafio 7:
         System.out.print(ListDuplicateRemover.removeDuplicates(List.of(3,3,5,8,7,6,3,1)));
+        System.out.println("-------------------------------------");
 
+        //desafio 8:
+        System.out.println(OrdenateString.alphabeticOrder("o rato roeu a roupa do rei de roma"));
     }
 }
