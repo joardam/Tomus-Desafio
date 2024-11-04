@@ -1,5 +1,6 @@
 import desafios.d1.ListEvenNumbersBetween;
 import desafios.d2.Palindrome;
+import desafios.d3.FactorialRecursive;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,7 +15,8 @@ public class Main {
         System.out.println(Palindrome.isPalindromeMethod2("arar"));
 
         //desafio 3:
-
+        System.out.println(FactorialRecursive.factorial(3));
+        System.out.println(FactorialRecursive.factorial(3));
 
     }
 }
